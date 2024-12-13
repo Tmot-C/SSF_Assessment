@@ -7,7 +7,7 @@ public interface Constants {
 
     String url = "https://publishing-production-d35a.up.railway.app/";
 
-    String template = "Template";
+    String template = "notice";
 
     String delimiter = "CUSTOM_DELIMITER_PATTERN";
 
