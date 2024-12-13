@@ -13,9 +13,7 @@
     
     RUN mvn package -Dmaven.test.skip=true
     
-    # ---------------------------- STAGE 1 ----------------------------
-    
-    # ---------------------------- STAGE 2 ----------------------------
+
     
     FROM maven:3.9.9-eclipse-temurin-23
     
@@ -37,5 +35,3 @@
     
     ENTRYPOINT java -jar target/noticeboard.jar
     
-    # ---------------------------- STAGE 2 ----------------------------
-        

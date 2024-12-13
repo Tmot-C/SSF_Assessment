@@ -1,7 +1,5 @@
 package vttp.batch5.ssf.noticeboard.utils;
 
-import java.util.Arrays;
-import java.util.List;
 
 public interface Constants {
     
@@ -13,6 +11,5 @@ public interface Constants {
 
     String delimiter = "CUSTOM_DELIMITER_PATTERN";
 
-    List<String> eventNames = Arrays.asList("Christmas Eve Party", "Round Singapore Cycling", "Intro to SCRATCH", "JB Shopping !");
     
 }

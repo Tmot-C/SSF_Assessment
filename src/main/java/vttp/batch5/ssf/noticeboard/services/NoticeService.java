@@ -5,12 +5,9 @@ import org.springframework.http.MediaType;
 import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 
-import jakarta.json.Json;
 import jakarta.json.JsonObject;
-import vttp.batch5.ssf.noticeboard.models.PostedNotice;
 import vttp.batch5.ssf.noticeboard.repositories.NoticeRepository;
 import vttp.batch5.ssf.noticeboard.utils.Constants;
 
